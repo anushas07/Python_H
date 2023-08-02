@@ -1,0 +1,2 @@
+st = "Hello! Nice  to meet  you!"
+print(st.find("  "))
