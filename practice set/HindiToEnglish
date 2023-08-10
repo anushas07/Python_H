@@ -1,0 +1,9 @@
+myDict = {
+    "dekho": "see",
+    "suno" : "listen",
+    "kya": "what",
+    "nahi" : "no"
+}
+print("The options are ",myDict.keys())
+a = input("Enter the Hindi word\n")
+print("The meaning of the word is ",myDict.get(a))#using get key to avoid errors.
