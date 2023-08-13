@@ -1,0 +1,13 @@
+friends = {}
+f1 = input("Enter your fav language Rahul\n")
+f2 = input("Enter your fav language Simran\n")
+f3 = input("Enter your fav language Shiv\n")
+f4 = input("Enter your fav language Aditya\n")
+
+friends["Rahul"] = f1
+friends["Simran"] = f2
+friends["Shiv"] = f3
+friends["Aditya"] = f4
+
+print(friends)
+
