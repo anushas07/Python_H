@@ -1,0 +1,22 @@
+
+number1 = int(input("Enter number1: "))
+number2 = int(input("Enter number2: "))
+number3 = int(input("Enter number3: "))
+number4 = int(input("Enter number4: "))
+
+if(number1>number4):
+    f1 = number1
+else:
+    f1 = number4
+
+if(number2>number3):
+    f2 = number2
+else:
+    f2 = number3
+
+if(f1>f2):
+    print(f1, "is the greatest")
+else:
+    print(f2 ,"is the greatest")
+
+ 
