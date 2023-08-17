@@ -1,0 +1,6 @@
+post = "Welcome to my channel. Today we are gonna talk about a youTuber whoisan inspiration to most of the Engineering students. CodewithHarry. Harry is a programmer and also an youTuber that makes free videos to helpstudents learn various technical languages."
+
+if("Harry" in post):
+    print("This post is about Harry")
+else:
+    print("This post is not about Harry")
