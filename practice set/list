@@ -1,0 +1,11 @@
+stuNames = ["riya","adi","ellie","kiara"]
+
+name = input("Enter the name to be searched\n")
+
+if name in stuNames:
+    print("Your name is present in the list")
+else:
+    print("Your name is not present in the list")
+
+
+
