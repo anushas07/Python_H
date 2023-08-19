@@ -1,0 +1,4 @@
+n  = int(input("enter the number\n"))
+i=1
+for i in range(10,0,-1):
+    print(str(n)+"*"+str(i)+"=",n*i)
