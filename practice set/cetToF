@@ -1,0 +1,6 @@
+def celToF(celValue):
+    F = ((celValue * (9/5)) + 32) 
+    print(F)
+
+celValue = int(input("Enter the Celsius value\n"))
+celToF(celValue)
