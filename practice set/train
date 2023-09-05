@@ -1,0 +1,30 @@
+class Train:
+    def __init__(self, name,fare, seats):
+        self.name = name
+        self.fare = fare
+        self.seats = seats
+
+    def getStatus(self):
+        print('**************')
+        print(f"The name of the train is {self.name}")
+        print(f"The number of seats available are {self.seats}")
+        print("***************")
+
+    def getFareInfo(self):
+        print(f"The fare is {self.fare}")
+
+    def bookTicket(self):
+        if (self.seats>0):
+            print(f"Your ticket has been booked! Your seat number is {self.seats}")
+            self.seats = self.seats-1
+        else:
+            print("Tickets are not available. Please try in tatkal")
+
+
+
+city = Train('Indian Express', 800,10)
+city.getStatus()
+city.bookTicket()
+city.getStatus()
+city.bookTicket()
+city.getStatus()
